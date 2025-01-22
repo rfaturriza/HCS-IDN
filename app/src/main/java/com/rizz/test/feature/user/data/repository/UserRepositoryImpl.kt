@@ -15,16 +15,14 @@ class UserRepositoryImpl @Inject constructor(
     override suspend fun requestUsers() = liveData {
         emit(Result.loading())
         try {
+            var response = localDataSource.requestUsers()
 
-//            var response = localDataSource.requestUsers()
-
-//            if (response.isEmpty()) {
-            val response = remoteDataSource.requestUsers()
-//                localDataSource.saveUsers(response.toTypedArray())
-//            }
+            if (response.isEmpty()) {
+                response = remoteDataSource.requestUsers()
+                localDataSource.saveUsers(response.toTypedArray())
+            }
 
             emit(Result.success(response))
-
         } catch (exception: Exception) {
             emit(Result.error(exception.message ?: ""))
         }
