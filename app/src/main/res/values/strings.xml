@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HCS-IDN</string>
+
+    <string name="profile.label.login">Login</string>
+    <string name="profile.button.login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="save">Save</string>
+    <string name="splash">Welcome to sample App \n by Rfaturriza</string>
+    <string name="name">rfaturriza</string>
+    <string name="company">company</string>
+    <string name="blog">blog</string>
+    <string name="location">location</string>
+    <string name="email">email</string>
+    <string name="bio">bio</string>
+    <string name="public_gists">Public Gists: %1$s</string>
+    <string name="public_repos">Public Repos: %1$s</string>
+    <string name="followers">Followers: %1$s</string>
+    <string name="following">Following: %1$s</string>
+    <string name="user_detail">Detail</string>
+</resources>
