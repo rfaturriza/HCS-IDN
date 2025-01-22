@@ -8,7 +8,7 @@
 
 | Screenshot 1 | Screenshot 2 |
 |--------------|--------------|
-| !\[Screenshot 1\](docs/ss/1.png) | !\[Screenshot 2\](docs/ss/2.png) |
+| ![Screenshot 1](docs/ss/1.png) | ![Screenshot 2](docs/ss/2.png) |
 
 ## Technologies Used
 
