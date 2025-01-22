@@ -46,6 +46,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For inquiries or support, reach out to:  
-**Rizz Faturriza**  
+**Rizky Faturriza**  
 📧 Email: [rfaturriza.dev@gmail.com](mailto:rfaturriza.dev@gmail.com)  
 🌐 Website: [rfaturriza.my.id](http://rfaturriza.my.id)
